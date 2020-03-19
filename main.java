@@ -17,7 +17,7 @@ public class main {
 		char[] s1Chars = args[0].toCharArray();
 		char[] s2Chars = args[1].toCharArray();
 		if(s1Chars.length > s2Chars.length){
-			System.out.println("False");
+			System.out.println("false");
 			return;
 		}
 
