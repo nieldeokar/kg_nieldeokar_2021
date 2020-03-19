@@ -17,8 +17,8 @@ Input strings s1 and s2 may contain whitespaces which would be considered as a c
 6. s1 = 'aad' s2 = 'cbc'  ---> true
 7. s1 = 'aazqdddd' s2 = 'zzzzqqad'  ---> true
 8. s1 = 'aazqdddd' s2 = '$$$$++{}'  ---> true
-9. s1 = 'a ad' s2 = 'afa '  ---> true (observe whitespace)
-10. s1 = 'aa' s2 = 'f'  ---> true (second 'a' in s1 can't be mapped to any character in s2)
+9. s1 = 'a ad' s2 = 'afa '  ---> false (observe whitespace, it can't be mapped to anything in s2)
+10. s1 = 'aa' s2 = 'f'  ---> false (second 'a' in s1 can't be mapped to any character in s2)
 
 
 
